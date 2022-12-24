@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lobster&display=swap');
+
+body{
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title-h2{
+    padding-left: 80px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    font-size: 48px;
+}
+.lorem{
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+.general-recipes-title{
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.general-recipes-items{
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.general-recipes-item{
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.general-recipes-h3{
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.general-recipes-timer-n-fork{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+.general-recipes-timer{
+    padding-right: 12px;
+}
+.general-recipes-fork-knife{
+    padding: 0 12px 0 26px;
+}
+.general-recipes-span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.general-deliciousness{
+    width: 90%;
+    margin-top: 160px;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: 60px;
+    background-color: #E7FAFE;
+}
+.general-deliciousness-h2{
+    margin: 0 0 24px 0;
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.general-deliciousness-p{
+    margin-bottom: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.general-deliciousness-inp{
+    padding-left: 32px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    width: 35%;
+    height: 80px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+}
+.general-deliciousness-btn{
+    cursor: pointer;
+    margin-left: -13%;
+    width: 12%;
+    height: 60px;
+    background: #000000;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+}
+.general-deliciousness-span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.general-deliciousness-inp::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.4);
+}
+.logo{
+    padding-left: 80px;
+    float: left;
+    font-family: 'Lobster';
+    width: 110px;
+    height: 30px;
+    size: 24px;
+}
+
+
+.header_content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+.header_nav{
+    display: flex;
+    list-style: none;
+}
+.header_nav_socials{
+    display: flex;
+    padding-right: 80px;
+    float: right;
+    list-style: none;
+}
+.header_nav_link{
+    padding: 0 20px;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer-content{
+    display: flex;
+    padding-bottom: 48px;
+    margin-top: 160px;
+    margin-left: 80px;
+    align-items: center; 
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer-logo{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+
+}
+.footer-lorem{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.footer-list{
+    float: right;
+    list-style: none;
+}
+.footer-link{
+    float: right;
+    margin: 0 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer-bottom-content{
+    display: flex;
+    padding: 48px 0 48px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-socials{
+    display: flex;
+}
+/* SECTION 1 */
+.first-section{
+    display: flex;
+}
+.spicy-div{
+    width: 620px;
+    height: 540px;
+    margin-top: 40px;
+    padding: 50px 0 50px 40px ;
+    border-radius: 35px 0 0 35px;
+    background: #E7FAFE;
+}
+.food-pic{
+    margin-top: 40px;
+}
+.badge{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.hot-recipes{
+    width: 156px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 30px;
+}
+.hot-recipes-img{
+    width: 24px;
+    height: 24px;
+}
+.hot-recipes-p{
+    padding-left: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    font-size: 14px;
+}
+.spicy-div-h1{
+    padding-top: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    font-style: normal;
+}
+.spicy-div-p{
+    padding-bottom: 30px;
+    padding-top: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+.double-div{
+    display: flex;
+}
+.minutes-chicken{
+    display: flex;
+    width: 139px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+.minutes-chicken:last-child{
+    margin-left: 13px;
+}
+.mc-p{
+    padding-left: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+.bottom-spicy{
+    display: flex;
+    padding-top: 104px;
+    justify-content: space-between;
+}
+.about-john{
+    display: flex;
+    align-items: center;
+}
+.john-n-date{
+    display: block; 
+    padding-left: 16px;
+}
+.john-smith{
+    padding-bottom: 4px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    font-size: 16px;
+}
+.date-john{
+    padding-top: 4px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+.view-recipes{
+    display: flex;
+    margin-right: 40px;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    border-radius: 16px;
+}
+.view-recipes-p{
+    color: #fff;
+}
+
+/* SECTION 2 */
+
+.categories{
+    display: flex;
+    margin-top: 162px;
+    justify-content: space-between;
+}
+
+.categories-btn{
+    cursor: pointer;
+    width: 200px; 
+    height: 60px;
+    margin-right: 80px;
+    background: #E7FAFE;
+    border-radius: 16px;
+    border: none;
+}
+.categories-span{
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    font-size: 16px;
+}
+.food-categories{
+    display: flex;
+    justify-content: space-between;
+}
+.breakfast{
+    display: inline-block;
+    margin-right: 20px;
+    width: 180px;
+    margin-top: 130px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+    border-radius: 30px;
+}
+.food-h5{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    font-size: 18px;
+}
+.food-img{
+    padding-bottom: 25px;
+}
+
+/* SECTION 3 */
+.recipes-title{
+    text-align: center;
+    padding-top: 180px;
+}
+.simple-n-tasty{
+    padding: 0;
+}
+.lorem-section-3{
+    padding-top: 24px;
+}
+.recipes-items{
+    padding-left: 80px;
+    padding-top: 96px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipes-item{
+    width: 400px;
+    height: 434px;
+    padding-top: 40px;
+    margin-right: 50px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+}
+.recipes-img{
+    margin-left: 16px;
+    border-radius: 20px;
+}
+.recipes-h3-title{
+    margin-top: 24px;
+    margin-left: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    font-size: 24px;
+}
+.recipes-p-class{
+    margin-left: 12px;
+    margin-right: 26px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+.minutes-n-food{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 16px;
+    align-items: center;
+}
+.ads{
+    padding-top: 20px;
+}
+
+
+/* SECTION 4 */
+
+.section-4{
+    display: flex;
+    padding-top: 144px;
+    align-items: center;
+}
+.text-chef{
+    padding-left: 80px;
+}
+.title-chef{
+    padding: 0;
+}
+.lorem-chef{
+    padding: 24px 0 72px 0;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+.btn-chef{
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    background: #000000;
+    border-radius: 16px;
+    
+}
+.span-chef{
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.section-5{
+    padding-top: 160px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+.section-5-title{
+    padding: 0;
+    padding-bottom: 24px;
+    text-align: center;
+}
+.instagram-posts{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 0 80px;
+}
+.btn-insta{
+    cursor: pointer;
+    display: flex;
+    width: 229px;
+    height: 60px;
+    margin: 105px 0 105px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    border-radius: 16px;
+}
+.insta-span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.icon-span{
+    padding-left: 22px;
+    color: #fff;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+.recipes-lorem{
+    padding-left: 150px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}

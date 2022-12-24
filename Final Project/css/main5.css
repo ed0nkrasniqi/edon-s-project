@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lobster&display=swap');
+
+body{
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo{
+    padding-left: 80px;
+    float: left;
+    font-family: 'Lobster';
+    width: 110px;
+    height: 30px;
+    size: 24px;
+}
+.general-deliciousness{
+    width: 90%;
+    margin-top: 160px;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: 60px;
+    background-color: #E7FAFE;
+}
+.general-deliciousness-h2{
+    margin: 0 0 24px 0;
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.general-deliciousness-p{
+    margin-bottom: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.general-deliciousness-inp{
+    padding-left: 32px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    width: 35%;
+    height: 80px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+}
+.general-deliciousness-btn{
+    cursor: pointer;
+    margin-left: -13%;
+    width: 12%;
+    height: 60px;
+    background: #000000;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+}
+.general-deliciousness-span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.general-deliciousness-inp::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.4);
+}
+.title-h2{
+    padding-left: 80px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    font-size: 48px;
+}
+.lorem{
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+.general-recipes-title{
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.general-recipes-items{
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.general-recipes-item{
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.general-recipes-h3{
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.general-recipes-timer-n-fork{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+.general-recipes-timer{
+    padding-right: 12px;
+}
+.general-recipes-fork-knife{
+    padding: 0 12px 0 26px;
+}
+.general-recipes-span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.other-recipes-h2{
+    padding: 160px 0 30px 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.header_content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+.header_nav{
+    display: flex;
+    list-style: none;
+}
+.header_nav_socials{
+    display: flex;
+    padding-right: 80px;
+    float: right;
+    list-style: none;
+}
+.header_nav_link{
+    padding: 0 20px;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer-content{
+    display: flex;
+    padding-bottom: 48px;
+    margin-top: 160px;
+    margin-left: 80px;
+    align-items: center; 
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer-logo{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+
+}
+.footer-lorem{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.footer-list{
+    float: right;
+    list-style: none;
+}
+.footer-link{
+    float: right;
+    margin: 0 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer-bottom-content{
+    display: flex;
+    padding: 48px 0 48px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-socials{
+    display: flex;
+}
+.title-h1{
+    margin-top: 84px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    font-size: 64px;
+}
+.happy-chef{
+    margin-left: 80px;
+    width: 40%;
+    height: 40%;
+}
+.full-content{
+    display: flex;
+    margin-top: 72px;
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.general-div label{
+    display: block;
+    margin-top: 24px;
+    margin-left: 40px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+}
+.general-inp{
+    padding-left: 35px;
+    margin-left: 40px;
+    width: 400px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    height: 60px;
+}
+input::placeholder{
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.mess-inp{
+    margin-left: 40px;
+    padding-left: 35px;
+    width: 840px;
+    background: #FFFFFF;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+.messages{
+    margin-left: 40px;
+    width: 840px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    height: 200px;
+}
+.contact-btn{
+    margin-top: 48px;
+    margin-left: 40px;
+    cursor: pointer;
+    width: 15%;
+    height: 60px;
+    background: #000000;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+}
+.contact-span{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    line-height: 24px;
+}
